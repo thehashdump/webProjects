@@ -28,7 +28,7 @@ app.get("/weather",(req,res)=>{
 })
 
 app.get("*",(req,res)=>{
-    res.status(404).send("Error 404")
+    res.render("error")
 })
 
 app.listen(port,()=> console.log(`listening to port ${port}`))
