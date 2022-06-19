@@ -1,0 +1,15 @@
+{
+  "name": "express-web",
+  "version": "1.0.0",
+  "description": "weather web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uzair khalid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  }
+}

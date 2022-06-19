@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{>header}}
+        <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center" >
+                        <figure>
+                            <img src="images/about.png" class="img-fluid">
+                        </figure>  
+                    </div>
+                    {{!-- right side --}}
+                     <div class="col-md-6 col-12 main_header_left">
+                        <h1>Uzair Khalid</h1>
+                        <p>I study at NUST. My area of interest is <span class="text_clr">WEB DEVELOPMENT</span>. I develop websites for fun.</p>
+                        <a href="https://www.linkedin.com/in/uzair-khalid-a834b81a4"><button>Contact Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>

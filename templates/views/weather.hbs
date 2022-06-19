@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+    {{>header}}
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="main_content">
+                        <form class="temp_form">
+                            <input type="text" id="cityName" placeholder="Enter City Name" autocomplete="off">
+                            <input type="submit" value="Search" id="submitBtn">
+                        </form>
+                    </div>
+                    <div class="tempInfo">
+                        <div class="top_layer">
+                            <p id="day" class="day">Tuesday</p>
+                            <p id="date_month" class="date">19 JUN</p>
+                        </div>
+                        <div class="main_layer">
+                            <p id="city" class="city_name">Enter City Name Please.</p>
+                            <div id="display" class="middle_layer data_hide">
+                                <p id="temp_status"> <i id="weather_icon" class="fa fa-cloud" aria-hidden="true"></i> </p>
+                                <p class="temp"><span id="temp">0</span><sup>o</sup>C</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    {{>footer}}
+</body>
+<script src="js/main.js"></script>
+</html>
